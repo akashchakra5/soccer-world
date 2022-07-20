@@ -91,7 +91,7 @@ body {
 
 }
 
-/* main styles */
+/* main styles start */
 /* options styles */
 
 main {
@@ -207,3 +207,5 @@ main {
 .fa-comment-dots {
     margin-top: 4px;
 }
+
+/* main styles end */
