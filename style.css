@@ -22,11 +22,12 @@ body {
 }
 
 .card {
-    width: 80%;
+    width: 90%;
     height: 70vh;
     background-color: #161616;
     display: flex;
     border-radius: 15px;
+    box-shadow: 8px 8px 8px #c0ccc3;
 }
 
 .card-info {
@@ -56,6 +57,7 @@ body {
 .card-title>P {
     font-weight: 200;
 
+
 }
 
 
@@ -83,7 +85,7 @@ body {
 }
 
 .card-image img {
-    width: 90%;
+    width: 70%;
     height: 100%;
     object-fit: fill;
     object-position: right;
@@ -110,6 +112,7 @@ main {
     background-color: #ffffff;
     display: flex;
     gap: 30px;
+
 }
 
 .options {
@@ -121,7 +124,12 @@ main {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
 
+.options:hover {
+    opacity: .95;
+    box-shadow: 0 15px 15px grey;
 }
 
 .match-button {
@@ -141,6 +149,7 @@ main {
     border-radius: 15px;
     font-size: 1.2em;
     font-weight: 600;
+    box-shadow: inset 0 0 0 #9495eb;
 
 }
 
@@ -174,12 +183,29 @@ main {
     box-shadow: 0 7px 7px grey;
 }
 
+.blog:hover {
+    opacity: .9;
+    box-shadow: 0 15px 15px grey;
+}
+
 .blog img {
     width: 100%;
 }
 
 .transfer-info {
     padding-left: 15px;
+}
+
+.transfer-info p {
+    font-weight: 600;
+}
+
+.trans-button {
+    background-color: #14abd9;
+    color: #ffff;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 30%;
 }
 
 
@@ -233,9 +259,12 @@ footer {
     font-size: 2rem;
 }
 
+.page-footer h1:hover {
+    opacity: .75;
+}
+
 hr {
     margin-bottom: 5%;
-    opacity: ;
 }
 
 .list {
@@ -250,4 +279,8 @@ hr {
 .list li a {
     text-decoration: none;
     color: white;
+}
+
+.list li a:hover {
+    opacity: .75;
 }
